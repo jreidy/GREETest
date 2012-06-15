@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A1CF87158BFDD600C36ED0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1CF86158BFDD600C36ED0 /* UIKit.framework */; };
+		96A1CF89158BFDD600C36ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1CF88158BFDD600C36ED0 /* Foundation.framework */; };
+		96A1CF8B158BFDD600C36ED0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1CF8A158BFDD600C36ED0 /* CoreGraphics.framework */; };
+		96A1CF91158BFDD600C36ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CF8F158BFDD600C36ED0 /* InfoPlist.strings */; };
+		96A1CF93158BFDD600C36ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1CF92158BFDD600C36ED0 /* main.m */; };
+		96A1CF97158BFDD600C36ED0 /* GGPTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1CF96158BFDD600C36ED0 /* GGPTestAppDelegate.m */; };
+		96A1CF9A158BFDD600C36ED0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CF98158BFDD600C36ED0 /* MainStoryboard.storyboard */; };
+		96A1CF9D158BFDD600C36ED0 /* GGPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1CF9C158BFDD600C36ED0 /* GGPTestViewController.m */; };
+		96A1CFA5158BFDD600C36ED0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1CFA4158BFDD600C36ED0 /* SenTestingKit.framework */; };
+		96A1CFA6158BFDD600C36ED0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1CF86158BFDD600C36ED0 /* UIKit.framework */; };
+		96A1CFA7158BFDD600C36ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1CF88158BFDD600C36ED0 /* Foundation.framework */; };
+		96A1CFAF158BFDD600C36ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFAD158BFDD600C36ED0 /* InfoPlist.strings */; };
+		96A1CFB2158BFDD600C36ED0 /* GREETestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1CFB1158BFDD600C36ED0 /* GREETestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96A1CFA8158BFDD600C36ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A1CF79158BFDD600C36ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A1CF81158BFDD600C36ED0;
+			remoteInfo = GREETest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96A1CF82158BFDD600C36ED0 /* GREETest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GREETest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A1CF86158BFDD600C36ED0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96A1CF88158BFDD600C36ED0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96A1CF8A158BFDD600C36ED0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96A1CF8E158BFDD600C36ED0 /* GREETest-Info.plist */ = {isa = PBXFileReference; path = "GREETest-Info.plist"; sourceTree = "<group>"; };
+		96A1CF90158BFDD600C36ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96A1CF92158BFDD600C36ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96A1CF94158BFDD600C36ED0 /* GREETest-Prefix.pch */ = {isa = PBXFileReference; path = "GREETest-Prefix.pch"; sourceTree = "<group>"; };
+		96A1CF95158BFDD600C36ED0 /* GGPTestAppDelegate.h */ = {isa = PBXFileReference; path = GGPTestAppDelegate.h; sourceTree = "<group>"; };
+		96A1CF96158BFDD600C36ED0 /* GGPTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPTestAppDelegate.m; sourceTree = "<group>"; };
+		96A1CF99158BFDD600C36ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		96A1CF9B158BFDD600C36ED0 /* GGPTestViewController.h */ = {isa = PBXFileReference; path = GGPTestViewController.h; sourceTree = "<group>"; };
+		96A1CF9C158BFDD600C36ED0 /* GGPTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPTestViewController.m; sourceTree = "<group>"; };
+		96A1CFA3158BFDD600C36ED0 /* GREETestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GREETestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A1CFA4158BFDD600C36ED0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		96A1CFAC158BFDD600C36ED0 /* GREETestTests-Info.plist */ = {isa = PBXFileReference; path = "GREETestTests-Info.plist"; sourceTree = "<group>"; };
+		96A1CFAE158BFDD600C36ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96A1CFB0158BFDD600C36ED0 /* GREETestTests.h */ = {isa = PBXFileReference; path = GREETestTests.h; sourceTree = "<group>"; };
+		96A1CFB1158BFDD600C36ED0 /* GREETestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GREETestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A1CF7F158BFDD600C36ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A1CF87158BFDD600C36ED0 /* UIKit.framework in Frameworks */,
+				96A1CF89158BFDD600C36ED0 /* Foundation.framework in Frameworks */,
+				96A1CF8B158BFDD600C36ED0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A1CF9F158BFDD600C36ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A1CFA5158BFDD600C36ED0 /* SenTestingKit.framework in Frameworks */,
+				96A1CFA6158BFDD600C36ED0 /* UIKit.framework in Frameworks */,
+				96A1CFA7158BFDD600C36ED0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A1CF77158BFDD600C36ED0 = {
+			isa = PBXGroup;
+			children = (
+				96A1CF8C158BFDD600C36ED0 /* GREETest */,
+				96A1CFAA158BFDD600C36ED0 /* GREETestTests */,
+				96A1CF85158BFDD600C36ED0 /* Frameworks */,
+				96A1CF83158BFDD600C36ED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96A1CF83158BFDD600C36ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A1CF82158BFDD600C36ED0 /* GREETest.app */,
+				96A1CFA3158BFDD600C36ED0 /* GREETestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A1CF85158BFDD600C36ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A1CF86158BFDD600C36ED0 /* UIKit.framework */,
+				96A1CF88158BFDD600C36ED0 /* Foundation.framework */,
+				96A1CF8A158BFDD600C36ED0 /* CoreGraphics.framework */,
+				96A1CFA4158BFDD600C36ED0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96A1CF8C158BFDD600C36ED0 /* GREETest */ = {
+			isa = PBXGroup;
+			children = (
+				96A1CF95158BFDD600C36ED0 /* GGPTestAppDelegate.h */,
+				96A1CF96158BFDD600C36ED0 /* GGPTestAppDelegate.m */,
+				96A1CF98158BFDD600C36ED0 /* MainStoryboard.storyboard */,
+				96A1CF9B158BFDD600C36ED0 /* GGPTestViewController.h */,
+				96A1CF9C158BFDD600C36ED0 /* GGPTestViewController.m */,
+				96A1CF8D158BFDD600C36ED0 /* Supporting Files */,
+			);
+			path = GREETest;
+			sourceTree = "<group>";
+		};
+		96A1CF8D158BFDD600C36ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A1CF8E158BFDD600C36ED0 /* GREETest-Info.plist */,
+				96A1CF8F158BFDD600C36ED0 /* InfoPlist.strings */,
+				96A1CF92158BFDD600C36ED0 /* main.m */,
+				96A1CF94158BFDD600C36ED0 /* GREETest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96A1CFAA158BFDD600C36ED0 /* GREETestTests */ = {
+			isa = PBXGroup;
+			children = (
+				96A1CFB0158BFDD600C36ED0 /* GREETestTests.h */,
+				96A1CFB1158BFDD600C36ED0 /* GREETestTests.m */,
+				96A1CFAB158BFDD600C36ED0 /* Supporting Files */,
+			);
+			path = GREETestTests;
+			sourceTree = "<group>";
+		};
+		96A1CFAB158BFDD600C36ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A1CFAC158BFDD600C36ED0 /* GREETestTests-Info.plist */,
+				96A1CFAD158BFDD600C36ED0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A1CF81158BFDD600C36ED0 /* GREETest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A1CFB5158BFDD600C36ED0 /* Build configuration list for PBXNativeTarget "GREETest" */;
+			buildPhases = (
+				96A1CF7E158BFDD600C36ED0 /* Sources */,
+				96A1CF7F158BFDD600C36ED0 /* Frameworks */,
+				96A1CF80158BFDD600C36ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GREETest;
+			productName = GREETest;
+			productReference = 96A1CF82158BFDD600C36ED0 /* GREETest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96A1CFA2158BFDD600C36ED0 /* GREETestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A1CFB8158BFDD600C36ED0 /* Build configuration list for PBXNativeTarget "GREETestTests" */;
+			buildPhases = (
+				96A1CF9E158BFDD600C36ED0 /* Sources */,
+				96A1CF9F158BFDD600C36ED0 /* Frameworks */,
+				96A1CFA0158BFDD600C36ED0 /* Resources */,
+				96A1CFA1158BFDD600C36ED0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A1CFA9158BFDD600C36ED0 /* PBXTargetDependency */,
+			);
+			name = GREETestTests;
+			productName = GREETestTests;
+			productReference = 96A1CFA3158BFDD600C36ED0 /* GREETestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A1CF79158BFDD600C36ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GGPTest;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 96A1CF7C158BFDD600C36ED0 /* Build configuration list for PBXProject "GREETest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96A1CF77158BFDD600C36ED0;
+			productRefGroup = 96A1CF83158BFDD600C36ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A1CF81158BFDD600C36ED0 /* GREETest */,
+				96A1CFA2158BFDD600C36ED0 /* GREETestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A1CF80158BFDD600C36ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A1CF91158BFDD600C36ED0 /* InfoPlist.strings in Resources */,
+				96A1CF9A158BFDD600C36ED0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A1CFA0158BFDD600C36ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A1CFAF158BFDD600C36ED0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96A1CFA1158BFDD600C36ED0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A1CF7E158BFDD600C36ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A1CF93158BFDD600C36ED0 /* main.m in Sources */,
+				96A1CF97158BFDD600C36ED0 /* GGPTestAppDelegate.m in Sources */,
+				96A1CF9D158BFDD600C36ED0 /* GGPTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A1CF9E158BFDD600C36ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A1CFB2158BFDD600C36ED0 /* GREETestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96A1CFA9158BFDD600C36ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A1CF81158BFDD600C36ED0 /* GREETest */;
+			targetProxy = 96A1CFA8158BFDD600C36ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96A1CF8F158BFDD600C36ED0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A1CF90158BFDD600C36ED0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96A1CF98158BFDD600C36ED0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A1CF99158BFDD600C36ED0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		96A1CFAD158BFDD600C36ED0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A1CFAE158BFDD600C36ED0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96A1CFB3158BFDD600C36ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96A1CFB4158BFDD600C36ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96A1CFB6158BFDD600C36ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GREETest/GREETest-Prefix.pch";
+				INFOPLIST_FILE = "GREETest/GREETest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96A1CFB7158BFDD600C36ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GREETest/GREETest-Prefix.pch";
+				INFOPLIST_FILE = "GREETest/GREETest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		96A1CFB9158BFDD600C36ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GREETest.app/GREETest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GREETest/GREETest-Prefix.pch";
+				INFOPLIST_FILE = "GREETestTests/GREETestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		96A1CFBA158BFDD600C36ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GREETest.app/GREETest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GREETest/GREETest-Prefix.pch";
+				INFOPLIST_FILE = "GREETestTests/GREETestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A1CF7C158BFDD600C36ED0 /* Build configuration list for PBXProject "GREETest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A1CFB3158BFDD600C36ED0 /* Debug */,
+				96A1CFB4158BFDD600C36ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A1CFB5158BFDD600C36ED0 /* Build configuration list for PBXNativeTarget "GREETest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A1CFB6158BFDD600C36ED0 /* Debug */,
+				96A1CFB7158BFDD600C36ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A1CFB8158BFDD600C36ED0 /* Build configuration list for PBXNativeTarget "GREETestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A1CFB9158BFDD600C36ED0 /* Debug */,
+				96A1CFBA158BFDD600C36ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96A1CF79158BFDD600C36ED0 /* Project object */;
+}
