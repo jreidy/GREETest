@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EBF-kk-h7c">
-                                <rect key="frame" x="204" y="235" width="72" height="37"/>
+                                <rect key="frame" x="108" y="247" width="86" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="21"/>
-                                <state key="normal" title="play">
+                                <state key="normal" title="play" image="play.png">
                                     <color key="titleColor" red="0.27286151493198896" green="0.51306887858051742" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -31,10 +31,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UdI-G0-iJg">
-                                <rect key="frame" x="204" y="258" width="72" height="37"/>
+                                <rect key="frame" x="268" y="247" width="89" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="21"/>
-                                <state key="normal" title="store">
+                                <state key="normal" title="store" image="store.png">
                                     <color key="titleColor" red="0.27286151489999999" green="0.51306887859999994" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -114,6 +114,10 @@
             <point key="canvasLocation" x="-223" y="-554"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="play.png" width="181" height="103"/>
+        <image name="store.png" width="199" height="73"/>
+    </resources>
     <classes>
         <class className="GGPTestGameViewControllerViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GGPTestGameViewControllerViewController.h"/>

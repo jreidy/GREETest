@@ -14,9 +14,10 @@
 
 @implementation GGPTestGameViewControllerViewController
 
-@synthesize followButton, backButton, timer, timeView, timeGiven, windowView, currentSelection;
+@synthesize followButton, backButton, timer, timeView, timeGiven, windowView, currentSelection, numberVisited;
 
-UIButton *buttonArray[24];
+UIButton *buttonArray[20];
+BOOL visitedBlocks[20];
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,11 +32,17 @@ UIButton *buttonArray[24];
 {
     [super viewDidLoad];
     windowView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 480, 320)];
+    windowView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"BlockTapperGamePlay.png"]];
     [self.view addSubview:windowView];
     
+    numberVisited = 0;
+    
+    for (int i=0; i<20; i++) {
+        visitedBlocks[i] = false;
+    }
     
     backButton =  [UIButton buttonWithType:UIButtonTypeCustom];
-    [backButton setBackgroundColor:[UIColor blackColor]];
+    [backButton setBackgroundColor:[UIColor yellowColor]];
     [backButton addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
     [backButton setFrame:CGRectMake(10, 285, 60, 60)];
     [backButton setCenter:CGPointMake(15 + 30, 10 + 30)];
@@ -59,10 +66,18 @@ UIButton *buttonArray[24];
 {
     UIButton *selected = (UIButton*) sender;
     if (currentSelection == selected.tag) {
-        [buttonArray[currentSelection] setImage:[UIImage imageNamed:@"noHighlight.png"] forState:UIControlStateNormal];
-        currentSelection = arc4random() % 23 + 1;
-        [buttonArray[currentSelection] setImage:[UIImage imageNamed:@"notSelected.png"] forState:UIControlStateNormal];
-        NSLog(@"%i", currentSelection);
+        [buttonArray[currentSelection] setImage:[UIImage imageNamed:@"BlockX.png"] forState:UIControlStateNormal];
+        visitedBlocks[currentSelection] = TRUE;
+        numberVisited++;
+        if (numberVisited == 20) {
+            [self endGame];
+        } else {
+            while (visitedBlocks[currentSelection]) {
+                currentSelection = arc4random() % 20;
+            }
+            [buttonArray[currentSelection] setImage:[UIImage imageNamed:@"BlockSelected.png"] forState:UIControlStateNormal];
+            NSLog(@"%i", currentSelection);
+        }
     } else {
         //do nothing
     }
@@ -86,29 +101,28 @@ UIButton *buttonArray[24];
 
 -(void) buildGrid
 {
-    int xpos = 15;
+    int xpos = 90;
     int ypos = 10;
-    for (int i = 0; i < 24; i++) {
-        if (i == 0) continue;
-        if (i == 6 || i == 12 || i == 18) {
-            xpos = 15;
+    for (int i = 0; i < 20; i++) {
+        if (i == 5 || i == 10 || i == 15) {
+            xpos = 90;
             ypos+= 75;
         } else if (i != 0) {
             xpos+=75;
         }
               
         buttonArray[i] = [UIButton buttonWithType:UIButtonTypeCustom];
-        [buttonArray[i] setImage:[UIImage imageNamed:@"noHighlight.png"] forState:UIControlStateNormal];
-        [buttonArray[i] setImage:[UIImage imageNamed:@"selected.png"] forState:UIControlStateHighlighted];
+        [buttonArray[i] setImage:[UIImage imageNamed:@"BlockUnselected.png"] forState:UIControlStateNormal];
+        [buttonArray[i] setImage:[UIImage imageNamed:@"BlockSelected.png"] forState:UIControlStateHighlighted];
         [buttonArray[i] setFrame:CGRectMake(xpos, ypos, 75, 75)];
         [buttonArray[i] setTag:i];
         [buttonArray[i] addTarget:self action:@selector(followTouched:)forControlEvents:UIControlEventTouchDown];
         [windowView addSubview:buttonArray[i]];
     }
     
-    currentSelection = arc4random() % 23 + 1;
+    currentSelection = arc4random() % 20;
     NSLog(@"%i", currentSelection);
-    [buttonArray[currentSelection] setImage:[UIImage imageNamed:@"notSelected.png"] forState:UIControlStateNormal];
+    [buttonArray[currentSelection] setImage:[UIImage imageNamed:@"BlockSelected.png"] forState:UIControlStateNormal];
 }
 
 -(void) playGame
@@ -118,7 +132,7 @@ UIButton *buttonArray[24];
 
 - (void) endGame
 {
-    
+    windowView.backgroundColor = [UIColor blackColor];
 }
 
 - (void)viewDidUnload

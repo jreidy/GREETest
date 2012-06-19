@@ -22,5 +22,6 @@
 @property (nonatomic) int timeGiven;
 @property (nonatomic) UIView *windowView;
 @property (nonatomic) UIButton *backButton;
+@property (nonatomic) int numberVisited;
 
 @end
