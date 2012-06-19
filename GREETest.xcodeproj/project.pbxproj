@@ -20,6 +20,16 @@
 		96A1CFA7158BFDD600C36ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1CF88158BFDD600C36ED0 /* Foundation.framework */; };
 		96A1CFAF158BFDD600C36ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFAD158BFDD600C36ED0 /* InfoPlist.strings */; };
 		96A1CFB2158BFDD600C36ED0 /* GREETestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1CFB1158BFDD600C36ED0 /* GREETestTests.m */; };
+		96A1CFBD158C01AE00C36ED0 /* GGPTestGameViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1CFBC158C01AE00C36ED0 /* GGPTestGameViewControllerViewController.m */; };
+		96A1CFC7158FB9B400C36ED0 /* BlockTapperSplash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFC3158FB9B300C36ED0 /* BlockTapperSplash@2x.png */; };
+		96A1CFC8158FB9B400C36ED0 /* noHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFC4158FB9B300C36ED0 /* noHighlight@2x.png */; };
+		96A1CFC9158FB9B400C36ED0 /* notSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFC5158FB9B300C36ED0 /* notSelected@2x.png */; };
+		96A1CFCA158FB9B400C36ED0 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFC6158FB9B300C36ED0 /* selected@2x.png */; };
+		96A1CFCF158FC2F100C36ED0 /* BlockTapperSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFCB158FC2F100C36ED0 /* BlockTapperSplash.png */; };
+		96A1CFD0158FC2F100C36ED0 /* noHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFCC158FC2F100C36ED0 /* noHighlight.png */; };
+		96A1CFD1158FC2F100C36ED0 /* notSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFCD158FC2F100C36ED0 /* notSelected.png */; };
+		96A1CFD2158FC2F100C36ED0 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A1CFCE158FC2F100C36ED0 /* selected.png */; };
+		96A1CFD5158FEF6700C36ED0 /* GGPTestStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1CFD4158FEF6700C36ED0 /* GGPTestStoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +47,33 @@
 		96A1CF86158BFDD600C36ED0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96A1CF88158BFDD600C36ED0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96A1CF8A158BFDD600C36ED0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		96A1CF8E158BFDD600C36ED0 /* GREETest-Info.plist */ = {isa = PBXFileReference; path = "GREETest-Info.plist"; sourceTree = "<group>"; };
+		96A1CF8E158BFDD600C36ED0 /* GREETest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GREETest-Info.plist"; sourceTree = "<group>"; };
 		96A1CF90158BFDD600C36ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96A1CF92158BFDD600C36ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96A1CF94158BFDD600C36ED0 /* GREETest-Prefix.pch */ = {isa = PBXFileReference; path = "GREETest-Prefix.pch"; sourceTree = "<group>"; };
-		96A1CF95158BFDD600C36ED0 /* GGPTestAppDelegate.h */ = {isa = PBXFileReference; path = GGPTestAppDelegate.h; sourceTree = "<group>"; };
+		96A1CF94158BFDD600C36ED0 /* GREETest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GREETest-Prefix.pch"; sourceTree = "<group>"; };
+		96A1CF95158BFDD600C36ED0 /* GGPTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGPTestAppDelegate.h; sourceTree = "<group>"; };
 		96A1CF96158BFDD600C36ED0 /* GGPTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPTestAppDelegate.m; sourceTree = "<group>"; };
 		96A1CF99158BFDD600C36ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		96A1CF9B158BFDD600C36ED0 /* GGPTestViewController.h */ = {isa = PBXFileReference; path = GGPTestViewController.h; sourceTree = "<group>"; };
+		96A1CF9B158BFDD600C36ED0 /* GGPTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGPTestViewController.h; sourceTree = "<group>"; };
 		96A1CF9C158BFDD600C36ED0 /* GGPTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPTestViewController.m; sourceTree = "<group>"; };
 		96A1CFA3158BFDD600C36ED0 /* GREETestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GREETestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A1CFA4158BFDD600C36ED0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		96A1CFAC158BFDD600C36ED0 /* GREETestTests-Info.plist */ = {isa = PBXFileReference; path = "GREETestTests-Info.plist"; sourceTree = "<group>"; };
+		96A1CFAC158BFDD600C36ED0 /* GREETestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GREETestTests-Info.plist"; sourceTree = "<group>"; };
 		96A1CFAE158BFDD600C36ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		96A1CFB0158BFDD600C36ED0 /* GREETestTests.h */ = {isa = PBXFileReference; path = GREETestTests.h; sourceTree = "<group>"; };
+		96A1CFB0158BFDD600C36ED0 /* GREETestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GREETestTests.h; sourceTree = "<group>"; };
 		96A1CFB1158BFDD600C36ED0 /* GREETestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GREETestTests.m; sourceTree = "<group>"; };
+		96A1CFBB158C01AE00C36ED0 /* GGPTestGameViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPTestGameViewControllerViewController.h; sourceTree = "<group>"; };
+		96A1CFBC158C01AE00C36ED0 /* GGPTestGameViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPTestGameViewControllerViewController.m; sourceTree = "<group>"; };
+		96A1CFC3158FB9B300C36ED0 /* BlockTapperSplash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlockTapperSplash@2x.png"; path = "../../Downloads/Dropbox/BlockTapperSplash@2x.png"; sourceTree = "<group>"; };
+		96A1CFC4158FB9B300C36ED0 /* noHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "noHighlight@2x.png"; path = "../../Downloads/Dropbox/noHighlight@2x.png"; sourceTree = "<group>"; };
+		96A1CFC5158FB9B300C36ED0 /* notSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notSelected@2x.png"; path = "../../Downloads/Dropbox/notSelected@2x.png"; sourceTree = "<group>"; };
+		96A1CFC6158FB9B300C36ED0 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected@2x.png"; path = "../../Downloads/Dropbox/selected@2x.png"; sourceTree = "<group>"; };
+		96A1CFCB158FC2F100C36ED0 /* BlockTapperSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlockTapperSplash.png; path = ../BlockTapperSplash.png; sourceTree = "<group>"; };
+		96A1CFCC158FC2F100C36ED0 /* noHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noHighlight.png; path = ../noHighlight.png; sourceTree = "<group>"; };
+		96A1CFCD158FC2F100C36ED0 /* notSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notSelected.png; path = ../notSelected.png; sourceTree = "<group>"; };
+		96A1CFCE158FC2F100C36ED0 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selected.png; path = ../selected.png; sourceTree = "<group>"; };
+		96A1CFD3158FEF6700C36ED0 /* GGPTestStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPTestStoreViewController.h; sourceTree = "<group>"; };
+		96A1CFD4158FEF6700C36ED0 /* GGPTestStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPTestStoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,14 @@
 		96A1CF77158BFDD600C36ED0 = {
 			isa = PBXGroup;
 			children = (
+				96A1CFC3158FB9B300C36ED0 /* BlockTapperSplash@2x.png */,
+				96A1CFC4158FB9B300C36ED0 /* noHighlight@2x.png */,
+				96A1CFC5158FB9B300C36ED0 /* notSelected@2x.png */,
+				96A1CFCB158FC2F100C36ED0 /* BlockTapperSplash.png */,
+				96A1CFCC158FC2F100C36ED0 /* noHighlight.png */,
+				96A1CFCD158FC2F100C36ED0 /* notSelected.png */,
+				96A1CFCE158FC2F100C36ED0 /* selected.png */,
+				96A1CFC6158FB9B300C36ED0 /* selected@2x.png */,
 				96A1CF8C158BFDD600C36ED0 /* GREETest */,
 				96A1CFAA158BFDD600C36ED0 /* GREETestTests */,
 				96A1CF85158BFDD600C36ED0 /* Frameworks */,
@@ -114,8 +144,12 @@
 				96A1CF95158BFDD600C36ED0 /* GGPTestAppDelegate.h */,
 				96A1CF96158BFDD600C36ED0 /* GGPTestAppDelegate.m */,
 				96A1CF98158BFDD600C36ED0 /* MainStoryboard.storyboard */,
+				96A1CFD3158FEF6700C36ED0 /* GGPTestStoreViewController.h */,
+				96A1CFD4158FEF6700C36ED0 /* GGPTestStoreViewController.m */,
 				96A1CF9B158BFDD600C36ED0 /* GGPTestViewController.h */,
 				96A1CF9C158BFDD600C36ED0 /* GGPTestViewController.m */,
+				96A1CFBB158C01AE00C36ED0 /* GGPTestGameViewControllerViewController.h */,
+				96A1CFBC158C01AE00C36ED0 /* GGPTestGameViewControllerViewController.m */,
 				96A1CF8D158BFDD600C36ED0 /* Supporting Files */,
 			);
 			path = GREETest;
@@ -224,6 +258,14 @@
 			files = (
 				96A1CF91158BFDD600C36ED0 /* InfoPlist.strings in Resources */,
 				96A1CF9A158BFDD600C36ED0 /* MainStoryboard.storyboard in Resources */,
+				96A1CFC7158FB9B400C36ED0 /* BlockTapperSplash@2x.png in Resources */,
+				96A1CFC8158FB9B400C36ED0 /* noHighlight@2x.png in Resources */,
+				96A1CFC9158FB9B400C36ED0 /* notSelected@2x.png in Resources */,
+				96A1CFCA158FB9B400C36ED0 /* selected@2x.png in Resources */,
+				96A1CFCF158FC2F100C36ED0 /* BlockTapperSplash.png in Resources */,
+				96A1CFD0158FC2F100C36ED0 /* noHighlight.png in Resources */,
+				96A1CFD1158FC2F100C36ED0 /* notSelected.png in Resources */,
+				96A1CFD2158FC2F100C36ED0 /* selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +303,8 @@
 				96A1CF93158BFDD600C36ED0 /* main.m in Sources */,
 				96A1CF97158BFDD600C36ED0 /* GGPTestAppDelegate.m in Sources */,
 				96A1CF9D158BFDD600C36ED0 /* GGPTestViewController.m in Sources */,
+				96A1CFBD158C01AE00C36ED0 /* GGPTestGameViewControllerViewController.m in Sources */,
+				96A1CFD5158FEF6700C36ED0 /* GGPTestStoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

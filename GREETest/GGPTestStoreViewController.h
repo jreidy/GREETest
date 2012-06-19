@@ -10,4 +10,7 @@
 
 @interface GGPTestStoreViewController : UIViewController
 
+@property UIButton *backButton;
+@property UIView *windowView;
+@property NSMutableDictionary *items;
 @end
